@@ -1,0 +1,47 @@
+/*Selector por Clase*/
+.titulos{
+    color: black;
+    font-size: 30px;
+    background-color: tomato;
+}
+
+/*Selector por ID*/
+#id_titulo {
+    color: white;
+    background-color: lightcoral;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Selector de tipo por Pseudo Clase*/
+i:hover {
+    color: skyblue;
+    font-size: 50px;
+}
+
+input:focus {
+    border-color: rgb(226, 159, 57);
+    border: 3px solid  orange;
+    background-color: lightgreen;
+}
+
+/*Selector por Atributo*/
+[id]{
+    color : rgb(104, 62, 104);
+    font-size: 40px;
+}
+/*
+img[alt*="No1"]{
+    width: 80px;
+    height: 50px;
+}
+*/
+
+img[alt*="uce"]{
+    width: 80px;
+    height: 50px;
+}
+
+/*Selector Universal*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}

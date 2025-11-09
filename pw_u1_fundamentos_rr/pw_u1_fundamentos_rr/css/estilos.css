@@ -1,0 +1,28 @@
+/**/
+h1 {
+    color: rgb(165, 82, 82);
+    background: rgb(27, 140, 216);
+    border: 1px solid black;
+    width: 600px;
+    height: 90px;
+}
+
+h2 {
+    color: #CA6753;
+    background: #3A124A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    /*px: píxeles*/
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(185, 95, 145);
+}
+
+p {
+    background: rgb(223, 236, 33);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body {
+    background: black;
+}
