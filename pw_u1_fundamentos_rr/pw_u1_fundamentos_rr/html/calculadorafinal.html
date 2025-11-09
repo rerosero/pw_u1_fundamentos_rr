@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/calculadorafinal.css">
+    <script src="../js/calculadorafinal.js" defer></script>
+</head>
+<body>
+    <!--Contenedor-->
+    <!--Me permite dar una referencia que permita ubicar los elementos-->
+    <div class="container">
+    <header>Calculadora</header>
+    <nav>Barra de Navegación</nav>
+    <section>
+        <div id="calculadora">
+            <!-- <label id="display" for="">0+1=1</label> -->
+            <!-- lo mas comun es ponerlo en un div -->
+            <div id="display"> 1+2=3</div>
+            <button onclick="eliminarElemento()">C</button>
+            <button onclick="removerUltimo()">&larr;</button>
+            <button onclick="mostrarDisplay('%')">%</button>
+            <button onclick="mostrarDisplay('/')">/</button>
+            <button onclick="mostrarDisplay(7)">7</button>
+            <button onclick="mostrarDisplay(8)">8</button>
+            <button onclick="mostrarDisplay(9)">9</button>
+            <button onclick="mostrarDisplay('*')">*</button>
+            <button onclick="mostrarDisplay(4)">4</button>
+            <button onclick="mostrarDisplay(5)">5</button>
+            <button onclick="mostrarDisplay(6)">6</button>
+            <button onclick="mostrarDisplay('-')">-</button>
+            <button onclick="mostrarDisplay(1)">1</button>
+            <button onclick="mostrarDisplay(2)">2</button>
+            <button onclick="mostrarDisplay(3)">3</button>
+            <button onclick="mostrarDisplay('+')">+</button>
+            <button onclick="mostrarDisplay(0)">0</button>
+            <button onclick="mostrarDisplay('.')">.</button>
+            <button onclick="calcular()" class="column-2">=</button>
+
+        </div>
+    </section>
+    <footer> Pie </footer>
+    </div>
+</body>
+
+</html>
