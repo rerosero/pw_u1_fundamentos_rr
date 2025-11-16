@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: #59abe3;
+}
+
+p:before {
+    content: attr(type);
+    display: block;
+    font-size: 20px;
+    color: #043c61;
+    margin-top: 35px;
+}
+
+input {
+    width: 270px;
+    border: none;
+    border-bottom: 2px solid  #e359ab;
+    background: none;
+    color: #3e941c;
+}
+input:focus {
+    outline: none;
+    border-bottom: 3px solid #e71392 ;
+}
+
+.formulario {
+    background: rgb(245, 201, 7);
+    border-radius: 10px;
+    padding: 30px 40PX;
+    box-shadow: 10px 10px #747431;
+}
+
+button {
+    background: #13e95a;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+.centrar-boton {
+    display: flex;
+    justify-content: center;
+}
+
+h2, 
+header {
+    color: #043c61;
+    border-bottom: 2px solid blue;
+    font-size: 35px;
+
+
+}
